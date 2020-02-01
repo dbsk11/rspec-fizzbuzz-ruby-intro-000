@@ -8,6 +8,6 @@ def fizzbuzz(integer)
   elsif integer % 5 == 0
     puts "Buzz"
   else
-    puts "Nil"
+    integer
   end
 end
