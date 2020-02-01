@@ -3,10 +3,5 @@
 def fizzbuzz(integer)
   if intger % 3 == 0 && integer % 5 == 0
     puts "FizzBuzz"
-  elsif intger % 3 == 0
-    puts "Fizz"
-  elsif intger % 5 == 0
-    puts "Buzz"
-  else
-    puts nil
+  end
 end
